@@ -1,0 +1,19 @@
+/* маска для картинки svg  */
+.icon-mask, 
+.icon-bg {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-mask {
+  background-color: rgb(224,122,122);
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+}
+.icon-bg{
+  filter: invert(14%) sepia (64%) seturate(5917%) hue-rotate(358deg) brightness(84%) contrast();
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
